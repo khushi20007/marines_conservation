@@ -1,0 +1,226 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #003b40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #006e72;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero-section {
+    background-color: #004d40;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    margin-bottom: 20px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Content sections */
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.content-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 18px;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Importance section */
+.importance-section {
+    background-color: #e0f7fa;
+    padding: 50px 20px;
+}
+
+.importance-section h2 {
+    font-size: 30px;
+}
+
+.importance-section ol {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.importance-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Marine threats section */
+.marine-threats {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.marine-threats h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.threats-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.threat {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.threat img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.threat h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.threat p {
+    font-size: 18px;
+}
+
+/* Our role section */
+.our-role {
+    background-color: #e0f7fa;
+    padding: 50px 20px;
+}
+
+.our-role h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.role-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.role {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.role img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.role h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.role p {
+    font-size: 18px;
+}
+
+/* Conclusion section */
+.conclusion-section {
+    background-color: #f0f8ff;
+    padding: 50px 20px;
+}
+
+.conclusion-section h2 {
+    font-size: 30px;
+}
+
+.conclusion-section p {
+    font-size: 18px;
+}
+
+.conclusion-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
